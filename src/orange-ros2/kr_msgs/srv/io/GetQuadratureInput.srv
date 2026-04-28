@@ -1,0 +1,8 @@
+######################################################
+#              GET QUADRATURE INPUT SRV              #
+######################################################
+
+int8       index            # input index
+---
+Quadrature quad
+bool       success 

@@ -1,0 +1,7 @@
+uint16 port
+uint32 position
+uint32 speed
+uint32 acceleration
+---
+uint16 status
+string message

@@ -1,0 +1,5 @@
+bool enable
+---
+uint16 status
+string message
+bool enable

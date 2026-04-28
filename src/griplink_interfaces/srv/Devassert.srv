@@ -1,0 +1,6 @@
+uint16 port
+uint32 vid
+uint32 pid
+---
+uint16 status
+string message

@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+
+  <param name="mtest_desc"
+	 command="$(find xacro)/xacro.py '$(find ros2_description)/urdf/src/mtest.xacro'" />
+
+
+</launch>

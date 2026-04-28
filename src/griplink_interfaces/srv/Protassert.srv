@@ -1,0 +1,5 @@
+string protocol
+uint16 version
+---
+uint16 status
+string message

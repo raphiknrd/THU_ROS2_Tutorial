@@ -1,0 +1,26 @@
+<launch>
+  
+  <!-- <env name="ROS_MASTER_URI" value="http://192.168.0.1:11311"/>
+  <env name="ROS_IP" value="192.168.0.2"/> -->
+
+
+  <arg name="model_number" default="S00V0000M1018" description="Robot model string version/number SxxVxxxxMxxxx" />
+  <arg name="rviz_config" default="$(find-pkg-share ros2_description)/launch/kr2_robot_ros2.rviz"/>
+
+  <!-- send fake joint values -->
+  <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui">
+    <!-- <param name="source_list" value="">["set_joints"]</param> -->
+    <param name="rate" value="1000"/>
+
+  </node>
+
+  <!-- Combine joint values -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" exec="robot_state_publisher">
+    <param name="publish_frequency" value="60.0"/> <!-- Hz -->
+    <param name="robot_description" value="$(command 'cat $(find-pkg-share ros2_description)/urdf/kr2_robot_$(var model_number).urdf')"/>
+  </node>
+
+  <!-- Show in Rviz   -->
+  <node name="rviz2" pkg="rviz2" exec="rviz2" args="-d $(var rviz_config)"/>
+
+</launch>

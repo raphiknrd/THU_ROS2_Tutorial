@@ -1,0 +1,8 @@
+uint16 port
+uint16 index
+---
+uint16 status
+string message
+uint16 device_state
+---
+uint16 device_state
