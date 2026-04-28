@@ -20,13 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'robot_state = kr_example_python.robot_state:main',
-            'follow_joint = kr_example_python.follow_joint:main',
-            'jog_linear = kr_example_python.jog_linear:main',
-            'move_joint = kr_example_python.move_joint:main',
-            'self_motion = kr_example_python.self_motion:main',
-            'move_linear_by_button = kr_example_python.move_linear_by_button:main',
-            'vier_gewinnt = kr_example_python.vier_gewinnt:main',
+            
         ],
     },
 )
