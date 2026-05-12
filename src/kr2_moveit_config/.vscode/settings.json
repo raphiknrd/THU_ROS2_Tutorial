@@ -1,0 +1,21 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/raphi/ros2_ws/build/ros2_kr",
+        "/home/raphi/ros2_ws/install/ros2_kr/lib/python3.10/site-packages",
+        "/home/raphi/ros2_ws/build/kr_example_python",
+        "/home/raphi/ros2_ws/install/kr_example_python/lib/python3.10/site-packages",
+        "/home/raphi/ros2_ws/install/kr_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/raphi/ros2_ws/build/ros2_kr",
+        "/home/raphi/ros2_ws/install/ros2_kr/lib/python3.10/site-packages",
+        "/home/raphi/ros2_ws/build/kr_example_python",
+        "/home/raphi/ros2_ws/install/kr_example_python/lib/python3.10/site-packages",
+        "/home/raphi/ros2_ws/install/kr_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

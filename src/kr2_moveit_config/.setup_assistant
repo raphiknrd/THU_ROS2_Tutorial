@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ros2_description
+    relative_path: kr2_robot_model/urdf/kr2_robot_S00V0000M1018.urdf
+  srdf:
+    relative_path: config/kr2_robot_a1018.srdf
+  package_settings:
+    author_name: Raphi
+    author_email: konrra01@thu.de
+    generated_timestamp: 1773230448
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

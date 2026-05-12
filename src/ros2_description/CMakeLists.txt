@@ -152,6 +152,15 @@ install(DIRECTORY launch
 install(DIRECTORY kr2_robot_model/meshes 
   DESTINATION share/${PROJECT_NAME})
 
+
+# Installiert die Python-Skripte
+install(PROGRAMS
+  scripts/move_robot.py
+  scripts/move_robot_by_button.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+ 
+
 #############
 ## Testing ##
 #############
