@@ -14,7 +14,7 @@ def generate_launch_description():
 
     model_number_arg = DeclareLaunchArgument(
         'model_number',
-        default_value='S00V0000M0810',
+        default_value='S00V0000M1805',
         description='String for robot model version/number, please enter SxxVxxxxMxxxx'
     )
 

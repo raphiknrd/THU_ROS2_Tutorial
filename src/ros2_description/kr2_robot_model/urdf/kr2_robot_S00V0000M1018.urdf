@@ -359,7 +359,7 @@
   
 <gazebo>
   <plugin filename="gz_ros2_control-system" name="gz_ros2_control::GazeboSimROS2ControlPlugin">
-  <parameters>/home/raphi/ros2tutorial_ws/install/ros2_description/share/ros2_description/launch/robot_controller_gazebo.yaml</parameters>
+  <parameters>/home/robolab/thu_BENUTZERNAME_ws/install/ros2_description/share/ros2_description/launch/robot_controller_gazebo.yaml</parameters>
 </plugin>
 </gazebo>
 

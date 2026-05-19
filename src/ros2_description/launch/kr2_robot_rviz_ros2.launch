@@ -4,7 +4,7 @@
   <env name="ROS_IP" value="192.168.0.2"/> -->
 
 
-  <arg name="model_number" default="S00V0000M1018" description="Robot model string version/number SxxVxxxxMxxxx" />
+  <arg name="model_number" default="S00V0000M1805" description="Robot model string version/number SxxVxxxxMxxxx" />
   <arg name="rviz_config" default="$(find-pkg-share ros2_description)/launch/kr2_robot_ros2.rviz"/>
 
   <!-- send fake joint values -->
