@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'control_by_controller = my_package.control_by_controller:main'
+            'control_by_controller = kr_example_python.control_by_controller:main'
         ],
     },
 )
